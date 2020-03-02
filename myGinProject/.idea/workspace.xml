@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0712bd5d-6214-45e2-827e-159a47e6551f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="false" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="admin" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="goadmin@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="goadmin@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="goadmin@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="goadmin: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="online_judge: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../.." />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/main.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/adminApp/views.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/adminApp/common.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/problemApp/urls.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/common/common.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/problemApp/common.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/userApp/urls.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/userApp/common.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/userApp/models.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/adminApp/models.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/contestApp/common.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/userApp/views.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/contestApp/models.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/userApp/binds.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1XR9vd26W2QNJo4Cf8xHn6FeJAi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../judgeServer" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/css" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/dist" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build myGinProject" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myGinProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="myGinProject" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build myGinProject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:goadmin@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:goadmin@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5565e195" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@bab95c9" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="198" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581433258420">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="418" y="198" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581433258420" />
+    <state x="673" y="337" width="594" height="412" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583155538442">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="673" y="337" width="594" height="412" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1583155538442" />
+    <state x="703" y="281" width="504" height="521" key="FileChooserDialogImpl" timestamp="1583153604700">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="703" y="281" width="504" height="521" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583153604700" />
+    <state width="1285" height="219" key="GridCell.Tab.0.bottom" timestamp="1582966639831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1285" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582966639831" />
+    <state width="1285" height="219" key="GridCell.Tab.0.center" timestamp="1582966639830">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1285" height="219" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582966639830" />
+    <state width="1285" height="219" key="GridCell.Tab.0.left" timestamp="1582966639830">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1285" height="219" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582966639830" />
+    <state width="1285" height="219" key="GridCell.Tab.0.right" timestamp="1582966639831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1285" height="219" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582966639831" />
+    <state width="273" height="606" key="HiddenNamespacesPopup" timestamp="1581433289328">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="273" height="606" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1581433289328" />
+    <state x="441" y="175" width="1037" height="733" key="SettingsEditor" timestamp="1581044320504">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="441" y="175" width="1037" height="733" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581044320504" />
+    <state x="1085" y="208" width="540" height="524" key="StructurePopup" timestamp="1583066303907">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1085" y="208" width="540" height="524" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1583066303907" />
+    <state x="752" y="412" width="406" height="265" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1583066468881">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="752" y="412" width="406" height="265" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1080@0.0.1920.1080" timestamp="1583066468881" />
+    <state x="543" y="198" width="824" height="687" key="com.intellij.database.dbimport.ImportDialog" timestamp="1583060989490">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="543" y="198" width="824" height="687" key="com.intellij.database.dbimport.ImportDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583060989490" />
+    <state x="693" y="348" width="524" height="387" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1582912011059">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="693" y="348" width="524" height="387" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582912011059" />
+    <state x="672" y="135" width="566" height="812" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581301416694">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="672" y="135" width="566" height="812" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581301416694" />
+    <state x="785" y="229" width="340" height="625" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1581433150211">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="785" y="229" width="340" height="625" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581433150211" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1582556153793">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582556153793" />
+    <state x="685" y="449" width="540" height="184" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1581302369548">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="685" y="449" width="540" height="184" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581302369548" />
+  </component>
+</project>

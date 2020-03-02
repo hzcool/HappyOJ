@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6958d885-de77-4b45-9a37-37f3d75b74fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/online-judge/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/online-judge/src/views/Home.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend/online-judge" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/myGinProject/problemApp/common.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/judgeServer/judge/handle.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/judgeServer/judge/setting.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1YZZ1Rw3G15p4v9lrn8S3nHJQ8T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/judgeServer" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="298" width="424" height="487" key="FileChooserDialogImpl" timestamp="1583153346134">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="298" width="424" height="487" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583153346134" />
+  </component>
+</project>

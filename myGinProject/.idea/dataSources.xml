@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="localhost" uuid="758abf9e-5ab6-44fa-a6da-cc6c4c918684">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://0.0.0.0:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="admin" uuid="62759de1-d106-4ec9-a4c0-be5920208824">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/../../pkg/mod/github.com/!go!admin!group/go-admin@v1.1.9/data/admin.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="goadmin@localhost" uuid="f193a046-0d58-42c8-93c7-cf88b5787cf2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/goadmin</jdbc-url>
+    </data-source>
+  </component>
+</project>
