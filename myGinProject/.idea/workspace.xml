@@ -1,7 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0712bd5d-6214-45e2-827e-159a47e6551f" name="Default Changelist" comment="" />
+    <list default="true" id="0712bd5d-6214-45e2-827e-159a47e6551f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../judgeServer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../judgeServer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOJ" beforeDir="false" afterPath="$PROJECT_DIR$/HOJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contestApp/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/contestApp/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/about.448d4546.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/app.7abc62bd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-11b592a0.1cc8efad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-479b7295.32abf1af.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-516c8f55.c175ef74.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-68aff117.a7797839.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-752cd3f8.a3b273c9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-9e8bd65e.d6085481.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-c215412a.6637acf7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-d23588de.7dec71ca.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-f4fefbc6.afcce346.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-f5c8ef6a.947f7348.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/css/chunk-vendors.04bba205.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/fonts/fontello.068ca2b3.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/fonts/fontello.8d4a4e6f.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/fonts/fontello.a782baa8.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/fonts/fontello.e73a0647.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/fonts/ionicons.143146fa.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/fonts/ionicons.99ac3308.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/fonts/ionicons.d535a25a.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/1.b8056ce3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/2.9bc031de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/fontello.9354499c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/img/ionicons.a2c4a261.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/about.f9523941.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/app.1bd16f53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-11b592a0.bdf389d0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-2d0c7971.7778a2e4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-2d21ddf2.eeee81b8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-479b7295.3139f1c2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-516c8f55.74025c63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-68aff117.e880fa50.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-7333c8bb.30f63f65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-752cd3f8.63f7897d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-7fef483e.a0b63570.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-9e8bd65e.ab533736.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-c215412a.36298f93.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-d23588de.5df2bd19.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-f4fefbc6.b6ca9035.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-f5c8ef6a.cec62a5c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/js/chunk-vendors.2f3b2548.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problemApp/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/problemApp/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frontendAdmin/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/frontendAdmin/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userApp/common.go" beforeDir="false" afterPath="$PROJECT_DIR$/userApp/common.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userApp/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/userApp/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userApp/urls.go" beforeDir="false" afterPath="$PROJECT_DIR$/userApp/urls.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userApp/views.go" beforeDir="false" afterPath="$PROJECT_DIR$/userApp/views.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/css/app.83ffa8e8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/css/chunk-2b35aaf0.858bb93a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/css/chunk-559569a1.0a7d20de.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/css/chunk-74d83232.858bb93a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/css/chunk-c62b9902.2f2b2b7f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/css/chunk-vendors.d083707a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/fonts/fontello.068ca2b3.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/fonts/fontello.8d4a4e6f.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/fonts/fontello.a782baa8.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/fonts/fontello.e73a0647.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/fonts/ionicons.143146fa.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/fonts/ionicons.99ac3308.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/fonts/ionicons.d535a25a.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/img/fontello.9354499c.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/img/ionicons.a2c4a261.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/app.b77a292f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-00fdd667.e43fa376.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-2b35aaf0.a8ac5579.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-498e842a.4a183a5b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-559569a1.4598ca51.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-68dd105b.2fd50385.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-74d83232.9208e83e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-c62b9902.ef446426.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-e3cd02e4.a30cf3b1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueAdmin/js/chunk-vendors.f2fd454b.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +148,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
     <option name="urls">
@@ -88,7 +175,15 @@
     <setting file="file://$PROJECT_DIR$/contestApp/models.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/userApp/binds.go" root0="SKIP_INSPECTION" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1XR9vd26W2QNJo4Cf8xHn6FeJAi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -98,13 +193,14 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="false" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../judgeServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
@@ -139,26 +235,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:goadmin@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:goadmin@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@5565e195" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@bab95c9" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -201,10 +278,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1285" height="219" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582966639831" />
-    <state width="273" height="606" key="HiddenNamespacesPopup" timestamp="1581433289328">
+    <state width="273" height="606" key="HiddenNamespacesPopup" timestamp="1583204227875">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="273" height="606" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1581433289328" />
+    <state width="273" height="606" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1583204227875" />
     <state x="441" y="175" width="1037" height="733" key="SettingsEditor" timestamp="1581044320504">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

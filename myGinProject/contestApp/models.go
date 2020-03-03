@@ -53,6 +53,11 @@ func (c *Contest)GetTeams() (*[]Team,error){
 	}
 	return &teams,nil
 }
+func (c *Contest)GetTeamsCount() int {
+	var teams []Team
+	db.Model(c).Related(&teams)
+	return len(teams)
+}
 func (c *Contest)Delete() error {
 	RemoveContest(c)
 	return db.Delete(c).Error

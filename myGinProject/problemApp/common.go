@@ -40,8 +40,6 @@ var resultMap = map[int]string {
 	6: "SystemError",
 }
 
-
-
 var (
 	db *gorm.DB
 	BASE_DIR = filepath.Join(os.Getenv("BASE_PATH"),"test_case")

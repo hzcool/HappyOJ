@@ -123,6 +123,19 @@ func AuthContestPost(c *gin.Context) (*contestApp.Team,*contestApp.Contest)  {
 	return team,contest
 }
 
-
-
+func SearchUsers(l,r int,rules map[string]interface{}) ([]User,int,error) {
+	var users []User
+	err := db.Where(rules).Find(&users).Error
+	if err!=nil {
+		return []User{},0,err
+	}
+	cnt := len(users)
+	if l>cnt {
+		return []User{},cnt,nil
+	}
+	if r > cnt {
+		r = cnt
+	}
+	return users[l-1:r],cnt,nil
+}
 

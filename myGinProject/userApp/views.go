@@ -118,6 +118,59 @@ func profile(c *gin.Context)  {
 	c.JSON(200,user)
 }
 
+func getUserInfo(c *gin.Context)  {
+	var user User
+	if db.Where("username = ?",c.Query("username")).First(&user).RecordNotFound() {
+		c.String(403,"不存在该用户")
+		return
+	}
+	info := map[string]interface{} {
+		"username": user.Username,
+		"school": user.School,
+		"email": user.Email,
+		"desc": user.Description,
+		"create_at": user.CreatedAt.Format("2006-01-02 15:04:05"),
+		"last_seen": user.LastSeen.Format("2006-01-02 15:04:05"),
+	}
+	solved,unsolved,status := user.GetStates()
+	c.JSON(200,gin.H{
+		"info": info,
+		"solved": solved,
+		"unsolved": unsolved,
+		"status": status,
+	})
+}
+func searchUsers(c *gin.Context)  {
+	l,_ := strconv.Atoi(c.DefaultPostForm("l","1"))
+	r,_ := strconv.Atoi(c.DefaultPostForm("r","50"))
+	var rules map[string]interface{}
+	_ = json.Unmarshal([]byte(c.DefaultPostForm("rules","{}")),&rules)
+	users,tot,err := SearchUsers(l,r,rules)
+	if err!=nil {
+		c.String(403,"查询错误")
+		return
+	}
+	var us UserRanks
+	for _,item := range users {
+		solved,all := item.GetACAndAll()
+		var ratio float32 = 0
+		if all>0 {
+			ratio = float32(solved)/float32(all)
+		}
+		us = append(us, UsersRank{
+			Username: item.Username,
+			School:   item.School,
+			Solved:   uint(solved),
+			All:      uint(all),
+			Ratio:    ratio,
+		})
+	}
+	sort.Sort(us)
+	c.JSON(200,gin.H{
+		"tot": tot,
+		"data": us,
+	})
+}
 //更新用户信息
 func update(c *gin.Context)  {
 	user := GetCurrentUser(c)
@@ -434,6 +487,7 @@ func searchContests(c *gin.Context)  {
 			"begin": item.Begin.Format("2006-01-02 15:04:05"),
 			"length": float64(item.Length)/3600,
 			"status": item.Status,
+			"num": item.GetTeamsCount(),
 		})
 	}
 	c.JSON(200,gin.H{
@@ -481,13 +535,15 @@ func checkContestPwd(c *gin.Context)  {
 		c.String(403,"错误密码")
 		return
 	}
-	team := &contestApp.Team{
-		Name:user.Username,
-		ContestID:contest.ID,
-		UserID:user.ID,
-		Order:contest.Format,
+	if contest.Status != "Ended" {
+		team := &contestApp.Team {
+			Name:      user.Username,
+			ContestID: contest.ID,
+			UserID:    user.ID,
+			Order:     contest.Format,
+		}
+		team.Create()
 	}
-	team.Create()
 	c.String(200,"ok")
 }
 
@@ -508,6 +564,7 @@ func getContestContent(c *gin.Context)  {
 		"status": contest.Status,
 		"author": contest.Author,
 		"desc": contest.Desc,
+		"num": contest.GetTeamsCount(),
 	}
 	c.JSON(200,data)
 }
@@ -594,15 +651,26 @@ func submitContestCode(c *gin.Context)  {
 		c.String(403,"比赛已结束，无法提交")
 		return
 	}
-	if team==nil {
-		c.String(401,"未登陆")
-		return
-	}
+
 	label := c.PostForm("label")
 	cproblem := contest.GetOneProblemByLabel(label)
 	if cproblem==nil {
 		c.String(403,"找不到这道题")
 		return
+	}
+	if team==nil {
+		user := GetCurrentUser(c)
+		if contest.Type=="private" || user==nil {
+			c.String(401, "未登陆")
+			return
+		}
+		team = &contestApp.Team {
+			Name:      user.Username,
+			ContestID: contest.ID,
+			UserID:    user.ID,
+			Order:     contest.Format,
+		}
+		team.Create()
 	}
 	lock.Lock()
 	cs := contestApp.Csubmission{
