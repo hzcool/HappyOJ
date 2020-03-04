@@ -9,7 +9,6 @@ func urls_init(r *gin.Engine) {
 	authorized := r.Group("/")
 	authorized.Use(AuthLogin)
 	{
-		//authorized.GET("/", hello)
 		authorized.GET("logout",logout)
 	}
 	g := r.Group("/")
